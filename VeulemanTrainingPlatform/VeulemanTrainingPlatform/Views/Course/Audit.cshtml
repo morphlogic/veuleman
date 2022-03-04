@@ -1,0 +1,13 @@
+﻿@model VeulemanTrainingPlatform.Models.Course
+@{
+    ViewData["Title"] = "Course " + @Model.Name;
+}
+
+<h1>@Model.Name</h1>
+
+<p>@Model.Description</p>
+
+@using(@Html.BeginForm("Introduction", "Chapter", FormMethod.Post))
+{
+    <input type="submit" value="Begin" />
+}
