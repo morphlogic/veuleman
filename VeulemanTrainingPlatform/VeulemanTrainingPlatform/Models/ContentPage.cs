@@ -5,5 +5,6 @@ namespace VeulemanTrainingPlatform.Models
 {
     public class ContentPage : Page
     {
+        public int Order { get; set; }
     }
 }

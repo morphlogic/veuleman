@@ -3,11 +3,14 @@
     ViewData["Title"] = "Course " + @Model.Name;
 }
 
+<h1>Course</h1>
 <h1>@Model.Name</h1>
+
+<img src="http://goodwinfacs.weebly.com/uploads/7/3/1/9/7319469/3896237.jpg" />
 
 <p>@Model.Description</p>
 
-@using(@Html.BeginForm("Introduction", "Chapter", FormMethod.Post))
+@using(@Html.BeginForm("Audit", "Chapter", new { Id = @Model.Chapters.OrderBy(c => c.Order).First().Id }, FormMethod.Post))
 {
     <input type="submit" value="Begin" />
 }

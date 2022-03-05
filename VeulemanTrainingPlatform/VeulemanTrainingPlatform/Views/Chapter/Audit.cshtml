@@ -1,0 +1,22 @@
+﻿@model VeulemanTrainingPlatform.Models.Chapter
+
+@{
+    ViewData["Title"] = "Chapter " + @Model.Order + ":  " + @Model.Title;
+}
+
+<h1>Chapter</h1>
+
+<div>
+    <h4>@Model.Title</h4>
+    <hr />
+
+    <img src="http://onlinewritingtraining.com.au/wp-content/uploads/2017/04/Depositphotos_75709455_s-2015-300x186.jpg" />
+
+    <p class="col-sm-10">
+        @Html.DisplayFor(model => model.Description)
+    </p>
+    @using (@Html.BeginForm("Audit", "ContentPage", new { Id = @Model.ContentPages.OrderBy(p => p.Order).First().Id }, FormMethod.Post))
+    {
+        <input type="submit" value="Begin" />
+    }
+</div>

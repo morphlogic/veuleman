@@ -1,0 +1,21 @@
+﻿@model VeulemanTrainingPlatform.Models.ContentPage
+
+@{
+    ViewData["Title"] = @Model.Title;
+}
+
+<h1>Page</h1>
+
+<div>
+    <h4>@Model.Title</h4>
+    <p>@Model.Description</p>
+
+    <img src="https://cdn.pixabay.com/photo/2020/02/09/03/23/page-4831835_1280.png" height="300" />
+
+    <p>@Model.Content</p>
+    <hr />
+    @using (@Html.BeginForm("AuditNext", "ContentPage", new { Id = @Model.Id }, FormMethod.Post))
+    {
+        <input type="submit" value="Continue" />
+    }
+</div>

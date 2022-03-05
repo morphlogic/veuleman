@@ -31,18 +31,21 @@ namespace VeulemanTrainingPlatform.Data
                                 new ContentPage
                                 {
                                     Title = "Lesson 1 Reno SD PR",
+                                    Order = 1,
                                     Description = "This is where you start to learn about PR from the Reno SD PR",
                                     Content = "Praesent nec lorem eu dui maximus vestibulum ac a nulla. Morbi ultricies in nisi vitae eleifend. Sed lorem orci, dictum ac odio a, gravida pulvinar velit. Nulla vitae velit sed purus dictum aliquet ac ut arcu. Suspendisse sit amet eros at ipsum sollicitudin tristique. Mauris convallis eget tortor non vehicula. Nulla malesuada vulputate fringilla. Praesent quis velit condimentum massa mattis molestie non vel felis. Nulla fermentum ante ac auctor blandit. Cras quam nisl, ullamcorper consequat semper a, maximus sit amet enim. Mauris eget mauris ligula. Duis orci eros, tempus a enim id, volutpat bibendum ligula. Vivamus aliquet mauris lobortis orci posuere eleifend."
                                 },
                                 new ContentPage
                                 {
                                     Title = "Lesson 2 Reno SD PR",
+                                    Order = 2,
                                     Description = "This is where you continue to learn about PR from the Reno SD PR",
                                     Content = "Fusce pellentesque vulputate laoreet. Aenean laoreet sem at sem consequat venenatis. Cras non varius tortor, at vulputate leo. Nulla facilisi. Sed elementum est vitae feugiat sodales. Etiam lacinia nisi odio, eu lacinia mi sagittis eu. Fusce viverra hendrerit lectus nec accumsan. In sagittis purus justo, non viverra lorem euismod non."
                                 },
                                 new ContentPage
                                 {
                                     Title = "Lesson 3 Reno SD PR",
+                                    Order = 3,
                                     Description = "This is where you finish learning about PR from the Reno SD PR",
                                     Content = "Aenean euismod turpis a ipsum ultrices rhoncus. Nam elementum imperdiet massa, eget lacinia libero accumsan eu. Proin dui nunc, ultricies non placerat eget, euismod molestie nulla. Nullam ac volutpat dui, a malesuada risus. Quisque at efficitur mi. Mauris vel rutrum tellus. Vivamus vitae eros accumsan, tempus nibh sit amet, faucibus erat. Nam maximus vitae neque nec elementum. Duis nisl velit, feugiat sit amet pulvinar vel, tristique ut nisi. Nam dapibus luctus risus, at hendrerit sapien auctor id."
                                 }
@@ -64,18 +67,21 @@ namespace VeulemanTrainingPlatform.Data
                                 new ContentPage
                                 {
                                     Title = "Lesson 1 Not Getting Sued",
+                                    Order = 1,
                                     Description = "This is where you start to learn about not getting sued from the Reno SD PR",
                                     Content = "Praesent nec lorem eu dui maximus vestibulum ac a nulla. Morbi ultricies in nisi vitae eleifend. Sed lorem orci, dictum ac odio a, gravida pulvinar velit. Nulla vitae velit sed purus dictum aliquet ac ut arcu. Suspendisse sit amet eros at ipsum sollicitudin tristique. Mauris convallis eget tortor non vehicula. Nulla malesuada vulputate fringilla. Praesent quis velit condimentum massa mattis molestie non vel felis. Nulla fermentum ante ac auctor blandit. Cras quam nisl, ullamcorper consequat semper a, maximus sit amet enim. Mauris eget mauris ligula. Duis orci eros, tempus a enim id, volutpat bibendum ligula. Vivamus aliquet mauris lobortis orci posuere eleifend."
                                 },
                                 new ContentPage
                                 {
                                     Title = "Lesson 2 Not Getting Sued",
+                                    Order = 2,
                                     Description = "This is where you continue to learn about not getting sued from the Reno SD PR",
                                     Content = "Fusce pellentesque vulputate laoreet. Aenean laoreet sem at sem consequat venenatis. Cras non varius tortor, at vulputate leo. Nulla facilisi. Sed elementum est vitae feugiat sodales. Etiam lacinia nisi odio, eu lacinia mi sagittis eu. Fusce viverra hendrerit lectus nec accumsan. In sagittis purus justo, non viverra lorem euismod non."
                                 },
                                 new ContentPage
                                 {
                                     Title = "Lesson 3 Not Getting Sued",
+                                    Order = 3,
                                     Description = "This is where you finish learning about not getting sued from the Reno SD PR",
                                     Content = "Aenean euismod turpis a ipsum ultrices rhoncus. Nam elementum imperdiet massa, eget lacinia libero accumsan eu. Proin dui nunc, ultricies non placerat eget, euismod molestie nulla. Nullam ac volutpat dui, a malesuada risus. Quisque at efficitur mi. Mauris vel rutrum tellus. Vivamus vitae eros accumsan, tempus nibh sit amet, faucibus erat. Nam maximus vitae neque nec elementum. Duis nisl velit, feugiat sit amet pulvinar vel, tristique ut nisi. Nam dapibus luctus risus, at hendrerit sapien auctor id."
                                 }

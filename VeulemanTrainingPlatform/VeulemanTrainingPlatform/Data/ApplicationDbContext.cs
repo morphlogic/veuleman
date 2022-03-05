@@ -13,6 +13,7 @@ namespace VeulemanTrainingPlatform.Data
 
         public DbSet<Course> Courses { get; set; }
         public DbSet<Chapter> Chapters { get; set; }
+        public DbSet<ContentPage> ContentPages { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -24,5 +25,9 @@ namespace VeulemanTrainingPlatform.Data
 
             base.OnModelCreating(builder);
         }
+
+        public DbSet<VeulemanTrainingPlatform.Models.QuizPage> QuizPage { get; set; }
+
+        public DbSet<VeulemanTrainingPlatform.Models.FinalPage> FinalPage { get; set; }
     }
 }

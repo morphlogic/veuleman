@@ -124,7 +124,7 @@ namespace VeulemanTrainingPlatform.Controllers
                 return NotFound();
             }
 
-            var course = await _context.Courses.FirstOrDefaultAsync(m => m.Id == id);
+            var course = await _context.Courses.Include("Chapters").FirstOrDefaultAsync(m => m.Id == id);
 
             if (course == null)
             {
